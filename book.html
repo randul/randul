@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Blue Guest House - Home</title>
+ 
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/mystile.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegate-fm">
+            <span class="sr-only">show/hide menu </span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html"><img class="logo" src="img/logo.png"></a>          
+        </div>
+
+        <!-- here goes the menu -->
+<div class="collapse navbar-collapse" id="navegate-fm">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="gallery.html">GALLERY</a></li>
+              <li><a href="rooms.html">ROOMS</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+             <li><a href="location.html">FIND US </a></li>
+             <li><a href="videos.html">VIDEOS</a></li>
+
+              <!-- the following code would have been used for a drop down menu -->
+
+<!--
+
+              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">FIND US <span class="caret"></span>
+                  </a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">location</a></li>
+                      <li><a href="#">nearrby</a></li>
+                    </ul>
+              </li>
+
+
+-->
+
+              <li class="active"><a href="#">BOOK NOW </a></li>
+      </ul>
+      </div>
+      </div>
+    </nav>
+  </header>
+
+          <!-- here goes the jumbotron -->
+
+          <section class="jumbotron">
+            <div class="container">
+              <form class="form-horizontal">
+
+
+        <fieldset class="infor personal info">
+          <h3 class="subtitle">
+            <div class="web-ui-btn web-ui-btn-icon-left">
+              <span class="web-ui-btn-inner web-ui-btn-cursor-default">
+                <span class="web-ui-btn-txt">Personal details</span>           
+              </span>              
+            </div>
+          </h3>
+
+          <br>
+            <div class="form-group">
+            <label class="control-label col-sm-2" for="room">Room</label>
+            <div class="col-sm-10">
+              <select id="room" name="room">
+              <option value="aberdeen">Aberdeen</option>
+              <option value="dundee">Dundee</option>
+              <option value="glasgow">Glasgow</option>
+              <option value="edinburgh">Edinburgh</option>
+            </select>
+          </div>
+            </div>
+
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="name">First Name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="usr">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">First Surname:</label>
+            <div class="col-sm-10"> 
+              <input type="text" class="form-control" id="usr">
+            </div>
+          </div>
+           <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Second surname</label>
+            <div class="col-sm-10"> 
+              <input type="text" class="form-control" id="usr">
+            </div>
+          </div>
+           <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Telephone</label>
+            <div class="col-sm-10"> 
+              <input type="text" class="form-control" id="usr">              
+            </div>
+          </div>
+           <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+
+      </fieldset>
+
+      <fieldset class="infor personal info">
+          <h3 class="subtitle">
+            <div class="web-ui-btn web-ui-btn-icon-left">
+              <span class="web-ui-btn-inner web-ui-btn-cursor-default">
+                <span class="web-ui-btn-txt">Payment details</span>           
+              </span>              
+            </div>
+          </h3>
+
+          <br><div class="form-group">
+            <label class="control-label col-sm-2" for="email">Card Holder:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Type of card</label>
+            <div class="col-sm-10"> 
+              <input type="password" class="form-control" id="pwd">
+            </div>
+          </div>
+           <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Card Number</label>
+            <div class="col-sm-10"> 
+              <input type="password" class="form-control" id="pwd">
+            </div>
+          </div>
+           <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Expire Date</label>
+            <div class="col-sm-10"> 
+              <input type="password" class="form-control" id="pwd">
+            </div>
+          </div>
+            <div class="form-group"> 
+              <div class="col-sm-offset-2 col-sm-10">
+                <br><button type="submit" class="btn btn-default">Submit</button></br>
+              </div>
+            </div>
+          </div>
+        
+        </fieldset>
+      </form>     
+    </div>
+  </section>
+
+
+            <!-- here goes the main contain -->
+    <footer>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+          <h3>Address</h3>
+          <p>Corran Esplanade</p>
+          <p>Oban</p>
+          <p>Argyll & Bute</p>
+          <p>PA34 5PP</p>
+            </div>
+          <div class="col-md-4">
+          <h3>Contact Us</h3>
+          <p>Tel:  01631 555700</p>
+          <p>Fax:  01631 555800</p>
+          <p>email:info@thebluejayguesthouse.co.uk</p>
+          <p><a href="about.html">Learn more about us</a></p>
+          </div>
+          <div class="col-md-4">
+          <h3>Weather and Radio</h3>
+          <p><a href=": http://www.obanfm.net/index2.php?option=com_content&view=article&id=19&Itemid=14">Listen</a></p>
+          <p><a href="http://www.bbc.co.uk/weather/2641108">check the weather</a></p>
+          <p><button onclick="myFunction()"><IMG SRC="img/print01.png"></button></p>
+          </div>
+          </div>
+    </div>
+
+    <script>
+function myFunction() {
+    window.print();
+}
+</script>
+
+    </footer>
+  </body>
+</html>
